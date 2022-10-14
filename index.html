@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherApp.css" />
+  </head>
+
+  <!-- bc583ad0cfaaf54190459162d807fe92 -->
+
+  <body>
+    <div class="bg">
+      <div id="navbar">
+        <div class="name">
+          <h1>Weather App</h1>
+        </div>
+
+        <div class="searchBar">
+          <input type="text" id="city" placeholder="search for your city" />
+          <input
+            type="button"
+            value="Show weather"
+            onclick="getWeather()"
+            id="btn"
+          />
+        </div>
+
+        <div class="home">
+          <a href="">HOME</a>
+          <a href="">ABOUT</a>
+        </div>
+      </div>
+
+      <div class="get-weather">
+        <div class="show"></div>
+        <div class="map"></div>
+      </div>
+
+      <div class="week-wise"></div>
+    </div>
+  </body>
+</html>
+<script defer src="weatherApp.js"></script>

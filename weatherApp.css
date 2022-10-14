@@ -1,0 +1,159 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  color: snow;
+}
+
+.bg {
+  background-image: url("https://www.lifeofpix.com/wp-content/uploads/2022/01/On-the-road-1-1600x879.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#city {
+  padding: 10px;
+  width: 50%;
+}
+#btn {
+  padding: 10px;
+}
+
+input[type="button"] {
+  background-color: steelblue;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+ 
+}
+
+.show {
+  flex: 1.5;
+  line-height: 0.5;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  padding: 5px;
+  display: none;
+  transition: 700ms;
+}
+.show:hover{
+ transform:  scale(1.05);
+ border: 1px solid #5e5e5e;
+} 
+
+.map {
+  flex: 1;
+  height: fit-content;
+  height: 300px;
+  margin-left: 3%;
+  transition: 700ms;
+}
+.map:hover{
+  transform:  scale(1.05);
+  
+}
+.get-weather {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+img {
+  width: 5%;
+}
+
+#city::first-letter {
+  text-transform: capitalize;
+}
+h2 {
+  display: inline-block;
+  font-size: 30px;
+}
+h2::first-letter {
+  text-transform: capitalize;
+}
+
+#temprature {
+  font-size: 50px;
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+#feel-like {
+  display: inline-block;
+}
+.other-info {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  margin-top: -2px;
+}
+.week-wise {
+  display: flex;
+  width: 80%;
+  gap: 2%;
+  margin: auto;
+  margin-top: 2%;
+}
+.week-wise > div {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  line-height: 0.1;
+
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  padding: 5px;
+  transition: 700ms;
+}
+.week-wise > div:hover{
+  transform: scale(1.03);
+  border: 3px solid #5e5e5e;
+}
+.week-wise > div > img {
+  width: 50%;
+}
+#navbar {
+  display: flex;
+  height: 80px;
+  color: whitesmoke;
+  background-color: #082032;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 5%;
+  padding: 5px;
+}
+.searchBar {
+  flex: 3;
+  margin-top: 20px;
+}
+.name {
+  flex: 1;
+  margin-top: 5px;
+  margin-left: 1%;
+}
+.home {
+  flex: 1;
+  padding: 20px;
+}
+h1 {
+  margin: 0px;
+  font-size: 40px;
+}
+.show img {
+  width: 8%;
+}
+
